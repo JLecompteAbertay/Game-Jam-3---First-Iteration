@@ -1,6 +1,9 @@
-/// @description storing variables
-// You can write your code in this editor
+/// @description player stats
 
-move_speed = 100;
-move_x = 0;
-move_y = 0;
+player_max_hp = 3; 
+
+player_hp = player_max_hp; // player's starting hp
+
+player_level = 0; // player's starting level
+
+suit_spells()
