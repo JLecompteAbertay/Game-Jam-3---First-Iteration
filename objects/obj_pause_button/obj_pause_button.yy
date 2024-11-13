@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_flr1",
+  "%Name":"obj_pause_button",
   "eventList":[],
   "managed":true,
-  "name":"obj_flr1",
+  "name":"obj_pause_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"tiles",
-    "path":"folders/Objects/tiles.yy",
+    "name":"pause",
+    "path":"folders/Objects/pause.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_flr1",
-    "path":"sprites/spr_flr1/spr_flr1.yy",
+    "name":"spr_pause_button",
+    "path":"sprites/spr_pause_button/spr_pause_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,0 +1,23 @@
+
+Nov 12 2024
+
+changed the enemy behaviour, old script is still there just in a multi-line comment in the "obj_enemy" step event.
+	new behaviour is under the alarm event at the bottom of the script.
+	
+created pickups (has been tested)
+	- each pickup will only trigger a collision with the player obj
+	- when collision occurs, a sound will play, a visual effect will happen, and then the instance will be destroyed.
+	--> check within each obj_pickup under "pickups" folder in the "objects" folder
+	- the suit pickups are not shown on screen, so not sure if the suit level increases
+	
+player movement was moved into a separate script which is called as a function in the player object's step event
+
+health pickup
+	- when player collides with the health obj, the same events as the suit pickups will occur (sound, visual effect, destroy)(this has been tested), 
+	but will increase the player's health if the player's health is less than the player's max allowed health (not been tested)
+	
+sounds
+	- added 3 diff sound files (hp pickup, bg music, suit spell pickup) (these have been tested with their respective instances)
+	
+
+***this should be everything that has been added/changed, you can ignore the pause button/gui/game over stuff has not been implemented

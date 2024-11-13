@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_flr1",
+  "%Name":"obj_spellcaster",
   "eventList":[],
   "managed":true,
-  "name":"obj_flr1",
+  "name":"obj_spellcaster",
   "overriddenProperties":[],
   "parent":{
-    "name":"tiles",
-    "path":"folders/Objects/tiles.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_flr1",
-    "path":"sprites/spr_flr1/spr_flr1.yy",
+    "name":"spr_spellcaster",
+    "path":"sprites/spr_spellcaster/spr_spellcaster.yy",
   },
   "spriteMaskId":null,
   "visible":true,

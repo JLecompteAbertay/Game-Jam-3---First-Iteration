@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_flr1",
-  "eventList":[],
+  "%Name":"obj_fireballexplode",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_flr1",
+  "name":"obj_fireballexplode",
   "overriddenProperties":[],
   "parent":{
-    "name":"tiles",
-    "path":"folders/Objects/tiles.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_flr1",
-    "path":"sprites/spr_flr1/spr_flr1.yy",
+    "name":"spr_fireballexplode",
+    "path":"sprites/spr_fireballexplode/spr_fireballexplode.yy",
   },
   "spriteMaskId":null,
   "visible":true,

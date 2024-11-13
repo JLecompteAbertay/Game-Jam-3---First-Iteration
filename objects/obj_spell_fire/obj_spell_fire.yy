@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_flr1",
+  "%Name":"obj_spell_fire",
   "eventList":[],
   "managed":true,
-  "name":"obj_flr1",
+  "name":"obj_spell_fire",
   "overriddenProperties":[],
   "parent":{
-    "name":"tiles",
-    "path":"folders/Objects/tiles.yy",
+    "name":"spells",
+    "path":"folders/Objects/spells.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_flr1",
-    "path":"sprites/spr_flr1/spr_flr1.yy",
+    "name":"spr_spell_fire",
+    "path":"sprites/spr_spell_fire/spr_spell_fire.yy",
   },
   "spriteMaskId":null,
   "visible":true,
