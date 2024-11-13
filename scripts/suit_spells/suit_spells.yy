@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"suit_spells",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"suit_spells",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
